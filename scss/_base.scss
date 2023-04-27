@@ -1,0 +1,27 @@
+/**variables**/
+$black: #000000;
+$blacktrans:#00000010;
+$violet: #7d75e6;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: $black;
+    background-color:$violet;
+}
+a{
+    color:$black;
+    text-decoration: none;
+}
+h2{
+font-weight: 700;
+}
+h3 {
+    font-weight: bold;
+}
+
+textarea{
+    min-height: 250px !important;
+}

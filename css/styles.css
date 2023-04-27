@@ -1,34 +1,109 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    color: #000000;
-    background-color:rgb(125, 117, 230)
-}
-a{
-    color:#000000;
-    text-decoration: none;
-}
-header{
-    background-color: #00000010;
-}
-header
-.header-nav ul li{
-    list-style: none;
+/**variables**/
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/** Contacto **/
-textarea{
-    min-height: 250px !important;
+body {
+  color: #000000;
+  background-color: #7d75e6;
 }
 
-.social img{
-    width: 10%;
+a {
+  color: #000000;
+  text-decoration: none;
 }
 
-.footer{
-    background-color: #00000010;
-    padding: 5% 0;
-    margin-top: 1%;
+h2 {
+  font-weight: 700;
 }
+
+h3 {
+  font-weight: bold;
+}
+
+textarea {
+  min-height: 250px !important;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.062745098);
+}
+
+.header-nav ul li {
+  list-style: none;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.062745098);
+  padding: 5% 0;
+  margin-top: 1%;
+}
+
+.social img {
+  width: 10%;
+}
+
+.titulo-principal {
+  padding-top: 15%;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.billboard-img {
+  width: 100%;
+  padding: 5% 0;
+}
+
+.margin-section {
+  margin: 5% auto;
+}
+
+.container-veinticuatro {
+  margin: 5% 0;
+}
+.container-especialidades {
+  margin-top: 5%;
+}
+.container-servicios {
+  padding: 5px;
+  margin: 5%;
+}
+
+.servicios-veterinaria-icono {
+  width: 20%;
+}
+
+.servicios-img {
+  width: 50px;
+  margin: 15%;
+}
+
+.sucursales-img {
+  width: 100%;
+  height: 220px;
+}
+
+.container-sucursales {
+  width: 3%;
+  height: 35px;
+}
+
+@media (max-width: 992px) {
+  .servicios-img {
+    width: 100%;
+    margin: 20% 0;
+  }
+}
+.nosotros-img {
+  width: 30%;
+}
+
+.container-nosotros p {
+  width: 50%;
+  text-align: justify;
+  margin: 2% auto;
+}
+
+/*# sourceMappingURL=styles.css.map */

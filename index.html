@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>veterinaria estrella</title>
+    <meta name="title" content="Veterinaria Estrella">
+    <meta name="description" content="La Veterinaria Estrella, posee tres sucursales con perfecta ubicación para que el usuario y su mascota puedan ser atendidos las 24HS">
+    <meta name="keywords" content="veterinaria, mascotas, dedicacion, atencion, emergencias, cirugias">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <title>Veterinaria Estrella</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./css/styles.css">
@@ -32,92 +38,96 @@
         </div>
     </header>
 
-    <main>
-        <section>
-            <div>
-                <h1 class="titulo-principal"><strong>Cuidado Integral para tu Mascota</strong></h1>
-                <figure>
-                    <img class="imagen-uno" src="./imagenes/veterinarioanimal.jpg" alt="veterinario con animales">
-                </figure>
+    <main class="container-fluid">
+        <section class="row align-items-center justify-content-around">
+            <div class="col-12 col-lg-5 text-center">
+                <h1 class="titulo-principal">Cuidado Integral para tu Mascota</h1>
             </div>
-            <article>
-                <h3><strong>ATENCIÓN LAS 24 HS</strong></h3>
-                <figure>
-                    <img src="./imagenes/veterinary.jpg" alt="veteniraria con perro" width=300>
-                </figure>
-                <figure>
-                    <img src="./imagenes/24hs.jpg" alt="" width=150>
-                </figure>
-                <p class="parrafo-principal">
-                    La sede Ruiz Huidobro 5698, ubicada en el barrio de saavedra cuenta con atención clínica e
-                    internación las 24 horas del día los 365 días del año, junto con quirófano,
-                    farmacia y sus distintas especialidades. Todo lo que tu mascota necesita, en un solo lugar.
-                </p>
-                <div>
-                    <input type="button" value="contactar">
+            <div class="col-12 col-lg-5">
+                <img class="billboard-img" src="./imagenes/veterinarioanimal.jpg" alt="veterinario con animales" class="img-fluid">
+            </div>
+        </section>
+        <section class="margin-section"> 
+            <h2 class="text-center">ATENCIÓN LAS 24 HS</h2> 
+            <article class="row justify-content-center align-items-center container-veinticuatro"> 
+                <img class="col-12 col-lg-4" src="./imagenes/veterinary.jpg" alt="veteniraria con perro" width=300>
+                <div class="col-12 col-lg-4 offset-1">
+                    <p>
+                        La sede Ruiz Huidobro 5698, ubicada en el barrio de saavedra cuenta con atención clínica e
+                        internación las 24 horas del día los 365 días del año, junto con quirófano,
+                        farmacia y sus distintas especialidades. Todo lo que tu mascota necesita, en un solo lugar.
+                    </p>
+                    <button type="button" class="btn btn-dark">Contactanos</button>
                 </div>
             </article>
         </section>
         <section>
-            <article>
-                <h2><strong>Nuestra Clinica</strong></h2>
-                <figure>
-                    <img src="./imagenes/microscopio.jpg" alt="laboratorio" width=30>
-                    <figcaption>
-                        <strong>Laboratorio</strong>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="./imagenes/rxx.webp" alt="rx" width=45>
-                    <figcaption>
-                        <strong>RX</strong>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="./imagenes/cardiologia.webp" alt="cardiologia" width=45>
-                    <figcaption>
-                        <strong>Cardiología</strong>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="./imagenes/clinicamedica.jpg" alt="clinica-medica" width=30>
-                    <figcaption>
-                        <strong>Clinica Medica</strong>
-                    </figcaption>
-                    <figure>
-                        <img src="./imagenes/bano.jpg" alt="clinica-medica" width=30>
-                        <figcaption>
-                            <strong>Baño</strong>
-                        </figcaption>
-                    </figure>
-            </article>
+                <h2 class="text-center">Nuestra Clinica</h2>
+                <div class="row justify-content-center margin-section">
+                    <div class="col-6 col-lg-2">
+                        <figure class="text-center">
+                            <img class="servicios-veterinaria-icono img-fluid" src="./imagenes/laboratorio.png" alt="laboratorio">
+                            <figcaption>
+                                <strong>Laboratorio</strong>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <figure class="text-center">
+                            <img class="servicios-veterinaria-icono img-fluid" src="./imagenes/rx.png" alt="rx">
+                            <figcaption>
+                                <strong>Rayos X</strong>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <figure class="text-center">
+                            <img class="servicios-veterinaria-icono img-fluid" src="./imagenes/cadriologia.png" alt="cardiologia">
+                            <figcaption>
+                                <strong>Cardiología</strong>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <figure class="text-center">
+                            <img class="servicios-veterinaria-icono img-fluid" src="./imagenes/clinicamedica.png" alt="clinica-medica">
+                            <figcaption>
+                                <strong>Clinica Medica</strong>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-6 col-lg-2">
+                        <figure class="text-center">
+                                <img class="servicios-veterinaria-icono img-fluid" src="./imagenes/bano.png" alt="clinica-medica">
+                                <figcaption>
+                                    <strong>Baño</strong>
+                                </figcaption>
+                        </figure>
+                    </div>
+                </div>
         </section>
-        <section>
-            <article>
-                <h2><strong>Nuestras Sucursales</strong></h2>
-                <figure>
-                    <img src="./imagenes/veterinariaa.jpg" alt="" width="150">
-                </figure>
-                <h3>Vuelta de Obligado 5236, Nuñez</h3>
-                <p>Dirección: Vuelta de Obligado 2369, Nuñez.</p>
-                <p>Tel:11-6523-6985</p>
-            </article>
-            <article>
-                <figure>
-                    <img src="./imagenes/veterinariab.jpg" alt="veterinariab" width="150">
-                </figure>
-                <h3>Ruiz huidrobro 2659, Saavedra</h3>
-                <p>Dirección: Av.Ruiz Huidrobro 2659, Villa Urquiza.</p>
-                <p>Tel:11-6523-6985</p>
-            </article>
-            <article>
-                <figure>
-                    <img src="./imagenes/veterinariac.jpg" alt="" width="150">
-                </figure>
-                <h3>Bauness 2369, Villa Urquiza</h3>
-                <p>Dirección: Bauness 2369, Villa Urquiza.</p>
-                <p>Tel:11-6523-6985</p>
-            </article>
+        <section class="text-center">
+                <h2>Nuestras Sucursales</h2>
+                <div class="row justify-content-center margin-section">
+                    <article class="col-12 col-lg-4">
+                        <img src="./imagenes/veterinariaa.jpg" class="img-fluid sucursales-img" alt="">
+                        <h3>Vuelta de Obligado 5236, Nuñez</h3>
+                        <p>Dirección: Vuelta de Obligado 2369, Nuñez.</p>
+                        <p>Tel:11-6523-6985</p>
+                    </article>
+                    <article class="col-12 col-lg-4">
+                        <img src="./imagenes/veterinariab.jpg" class="img-fluid sucursales-img" alt="veterinariab">
+                        <h3>Ruiz huidrobro 2659, Saavedra</h3>
+                        <p>Dirección: Av.Ruiz Huidrobro 2659, Villa Urquiza.</p>
+                        <p>Tel:11-6523-6985</p>
+                    </article>
+                    <article class="col-12 col-lg-4">
+                        <img src="./imagenes/veterinariac.jpg" class="img-fluid sucursales-img" alt="">
+                        <h3>Bauness 2369, Villa Urquiza</h3>
+                        <p>Dirección: Bauness 2369, Villa Urquiza.</p>
+                        <p>Tel:11-6523-6985</p>
+                    </article>
+                </div>
         </section>
     </main>
     <footer class="row footer text-center justify-content-around">
@@ -131,9 +141,9 @@
                 <h3>Seguinos en nuestras redes</h3>
             </div>
             <div>
-                <a href="#"><img src="./imagenes/linkedin.avif" alt="linkedin"></a>
-                <a href="#"><img src="./imagenes/facebook.jpg" alt="facebook"></a>
-                <a href="#"><img src="./imagenes/instagram.jpg" alt="instagram"></a>
+                <a href="#"><img src="../imagenes/logolinkedin.png" alt="linkedin"></a>
+                <a href="#"><img src="../imagenes/logofacebook.png" alt="facebook"></a>
+                <a href="#"><img src="../imagenes/logoinstagram.png" alt="instagram"></a>
             </div>
         </div>
         <div class="social col-12 col-lg-3">
@@ -141,9 +151,9 @@
                 <h3>Contacto</h3>
             </div>
             <div>
-                <a href="tel:1165236985"><img src="../imagenes/whatsapp.jpg" alt="">11-6523-6985</a>
-                <a href="tel:1125636998"><img src="../imagenes/whatsapp.jpg" alt="">11-2563-6998</a>
-                <a href="mailto:veterinariaestrella@gmail.com"><img src="../imagenes/mail.webp" alt="email" width="150">Email</a>
+                <a href="tel:1165236985"><img src="../imagenes/logowhatsapp.png" alt="">11-6523-6985</a>
+                <a href="tel:1125636998"><img src="../imagenes/logowhatsapp.png" alt="">11-2563-6998</a>
+                <a href="mailto:veterinariaestrella@gmail.com"><img src="../imagenes/logoemail.png" alt="email" width="150"></a>
             </div>
         </div>
     </footer>
