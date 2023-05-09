@@ -42,6 +42,7 @@ header {
 
 .social img {
   width: 10%;
+  margin: 2%;
 }
 
 .titulo-principal {
@@ -104,6 +105,15 @@ header {
   width: 50%;
   text-align: justify;
   margin: 2% auto;
+}
+
+.btn-primary {
+  background-color: #100b00;
+  border-color: #100b00;
+}
+.btn-primary:hover {
+  background-color: #ff101f;
+  border-color: #ff101f;
 }
 
 /*# sourceMappingURL=styles.css.map */
